@@ -1,58 +1,70 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
 /* .fixed{
     position: fixed;
     bottom: 0;
     left: 0;
 } */
 
-#header{
+#header {
     width: 100%;
     height: 100vh;
     background-image: url(https://lof8sc.yourbrand.studio/files/dynamicContent/sites/lof8sc/images/en/webpage_13/m5p6d1a5/element_252/rwdMode_1/2400x700/main.webp);
-   background-repeat:no-repeat ;
+    background-repeat: no-repeat;
 }
+
 .nav {
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 20px;
- 
-    
+
+
 }
-.navLogo{
+
+.navLogo {
     width: 60px;
 }
-.rightNav{
+
+.rightNav {
     margin: 20px;
 }
 
-.menuIcon{
+.menuIcon {
     border: 2px solid black;
     padding: 10px;
     border-radius: 50%;
     text-align: center;
-    
-    
+
+
 }
-.menuIcon a{
+
+.menuIcon a {
     color: black;
 }
 
 
-.navList{
-     /* display: flex;
-   justify-content: center; */
-   display: none;
-   
+.navList {
+    display: flex;
+   justify-content: center;
+    display: none;
+
 }
 
 
 
-.adventure{
+.adventure {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -61,164 +73,198 @@
     margin-top: 60px;
 
 }
-.adv1{
+
+.adv1 {
     font-style: italic;
     font-size: 38px;
     color: white;
     margin-top: 30px;
 }
-.adv2{
-     font-family: "Cal Sans", sans-serif;
-     color: white;
-     font-size: 50px;
-     margin-top: 30px;
+
+.adv2 {
+
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
 }
-.btnSignUp{
+
+.btnSignUp {
     padding: 15px 50px;
     margin: 20px;
     text-transform: uppercase;
-    color: black;
+
     font-size: 20px;
     border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.btnSignUp:hover{
+
+.btnSignUp:hover {
     background: black;
     cursor: pointer;
     color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 
-#article{
+#article {
     /* display: flex;
     
     flex-direction: column;
     justify-content: center; */
-    
+
 }
-.art1{
+
+.art1 {
     margin-top: 30px;
     font-size: 40px;
     text-align: center;
     font-weight: 300;
 }
-.artP{
-    margin-top: 30px ;
+
+.artP {
+    margin-top: 30px;
     font-size: 20px;
     text-align: center;
-    font-weight: 20;
+
 }
-.art5{
-    font-style: italic;
-    font-weight: 200;
+
+.art5 {
+
     text-align: center;
     margin: 30px 20px;
     color: grey;
 }
-.spanText{
-    color:#79A690 ;
+
+.spanText {
+    color: #79A690;
     font-size: 20px;
 }
 
 
-#hero{
+#hero {
     /* display: grid;
     grid-template-columns: repeat(1,100%);
     grid-template-rows: 100px 200px 100px 200px */
     text-align: center;
 }
-.box img{
+
+.box img {
     width: 50%;
-   
+
 
 }
-.boxText{
-    color:#79A690 ;
-    font-size: 18px;
-    margin:10px 0px;
+
+.boxText {
+    color: #79A690;
+    font-size: 40px;
+    margin: 10px 0px;
 }
-p{
+
+p {
     margin: 0px 40px;
 }
-.box1{
+
+.box1 {
     text-align: center;
+    font-size: 30px;
     /* margin: 15px 0px; */
+
 }
-.box{
+
+.box {
     margin: 15px 0px;
+
+}
+
+#boxA,
+#boxC {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 
-#gallery{
+#gallery {
     display: grid;
-    grid-template-columns: repeat(1,100%);
-    grid-template-rows:auto auto auto auto;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: auto auto auto auto;
     gap: 30px;
-   
+
 }
-.textGal{
-         font-family: "PT Serif", serif;
-         font-weight: 400;
+
+.textGal {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
     text-align: center;
     font-size: 48px;
     margin: 30px 10px;
 }
-.box1{
+
+.box1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
-.gal img{
+
+.gal img {
     width: 100%;
-    
+
+
 }
-#gal1{
-    
+
+#gal1 {
+
     grid-row: 1/2;
+
 }
-#gal2{
+
+#gal2 {
 
     grid-row: 2/3;
+
 }
 
 
-#suggetion{
+#suggetion {
     text-align: center;
     margin-top: 20px;
 }
 
-#footer{
+#footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    justify-content:center ;
+    justify-content: center;
     background: #81888B;
     color: aliceblue;
     margin-top: 20px;
     height: 200px;
-    
-    
+
+
 }
-.ftr{
+
+.ftr {
     font-size: 17px;
 }
-.icons{
+
+.icons {
     display: flex;
-    
-    
+
+
 }
-.icons-box{
+
+.icons-box {
     border: 1px solid rgb(223, 221, 221);
     padding: 20px;
     border-radius: 40px;
     margin: 25px 10px;
 }
 
-@media only screen and (min-width:800px){
-    
+@media only screen and (min-width:800px) {
+
     #gallery {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -233,85 +279,458 @@ p{
         width: 100%;
         height: 100%;
         object-fit: cover;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     #gal1 {
         grid-column: 1 / 2;
         grid-row: 1 / -1;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     #gal2 {
         grid-column: 2 / 4;
         grid-row: 1 / 2;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     #gal3 {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     #gal4 {
         grid-column: 3 / 4;
         grid-row: 2 / 3;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
-    #hero{
+    #hero {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: auto auto ;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
         height: auto;
-       margin: 10px 30px;
+        margin: 10px 30px;
     }
 
-    .box img{
+    .box img {
         width: 100%;
-        
+
     }
-   
-    #boxC{
+
+    #boxC {
         grid-column: 2/-1;
         grid-row: 2/-1;
-        
+
     }
 
 
-    
-.navList{
-     
-   display: block;
-   display: flex;
-   justify-content: center;
-   align-items: baseline;
-   
-}
-/* .adventure{
+
+    .navList {
+
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+
+    }
+
+    /* .adventure{
     width: 50%;
     text-align: center;
 } */
 
-.menuIcon{
-    display: none;
-}
-.navList li{
-    margin-left:  20px;
-    list-style: none;
-    font-size: 16px;
-    font-weight: 600;
-    color:rgb(11, 11, 11)
-  
+    .menuIcon {
+        display: none;
+    }
+
+    .navList li {
+        margin-left: 20px;
+        list-style: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgb(11, 11, 11)
+    }
+
+
+    .navList li:hover {
+        /* border:  solid rgb(192, 192, 192); */
+        background: rgb(240, 238, 238);
+        cursor: pointer;
+        padding: 5px;
+
+    }
+
+    .btnSignUp {
+        padding: 10px;
+    }
+
+
 }
 
 
-.navList li:hover{
-    border:  solid rgb(192, 192, 192);
-    background: rgb(240, 238, 238);
-      cursor: pointer;
-      padding: 5px;
+
+#OfferIndexHtml {
+    margin: 30px;
+}
+
+#offerSec {}
+
+.subOfferSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+.offerImg,
+.offerText {
+    margin: 20px 0px;
+}
+
+.offerImg img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.3);
+
+
+
+}
+
+.offerText {
+
+    text-align: justify;
+
+
+}
+
+.offerMainh2,
+.offerMainP,
+.offerMainH3,
+.offerMain3,
+.offerMainP2 {
+    font-size: 20px;
+}
+
+
+.btnOffer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.offerBtn {
+    padding: 20px 60px;
+    border-radius: 40px;
+    background: #79A690;
+    text-align: center;
+    transition: all 0.3s ease-in;
+
+
+
+
+}
+
+.offerBtn:hover {
+    background: #8fac9d;
+    cursor: pointer;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+
+@media only screen and (min-width:800px) {
+    .subOfferSec {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+        gap: 30px;
+
+    }
+
+    .offerImg img {
+        width: 100%;
+
+    }
+
+    .offerImg {
+        flex: 1;
+
+
+
+
+    }
+
+    .offerText {
+        flex: 2;
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+/* Section Main gallery start */
+
+
+
+#mainGallery {
+    margin: 20px 30px;
+}
+
+.GalH1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.GalP {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0px
+}
+
+.galleriya {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 5px;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+.GalBox {
+    padding: 0px 20px;
+    color: #79A690;
+}
+
+#galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.galGrid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#Gal1 {
+    grid-column: 1/-1;
+    grid-row: 1;
+
+}
+
+#Gal2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#Gal3 {
+    grid-column: 2;
+    grid-row: 2/4;
+}
+
+#Gal4 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#Gal5 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#Gal6 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#Gal7 {
+    grid-column: 1/-1;
+    grid-row: 5;
+}
+
+
+
+/* gallery section end */
+
+
+
+/* blogHeader :start */
+
+#blogHeader {
+    background-image: url(https://lof8sc.yourbrand.studio/files/dynamicContent/sites/lof8sc/images/en/webpage_17/m5p6cvmf/element_289/rwdMode_1/2400x700/blog_main.webp);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: 0px 30px;
+
+}
+
+.blog {
+    text-align: center;
+    margin: 30px;
+}
+
+.blogH1 {
+    margin-top: -45px;
+    color: white;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 65px;
+}
+
+.blogH2 {
+    margin-top: 20px;
+    color: white;
+    font-family: "Italianno", cursive;
+
+    font-size: 57px;
+}
+
+.blogBtn {
+    margin-top: 20px;
+
+}
+
+.blogSignUp {
+    padding: 15px 40px;
+    border-radius: 40px;
+    font-size: 20px;
+    background-color: #EAC155;
+
+    transition: all 0.3 s ease-in;
+    margin: 10px 0px;
+}
+
+.blogSignUp:hover {
+    background: #fad679;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+/* section blogFles :start */
+
+
+#blogFlex {
+
+    margin: 20px 30px;
+
+
+}
+
+.blogBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.3);
+
+}
+
+.blogImg img {
+    width: 100%;
+
+}
+
+.blogText {
+    text-align: start;
+
+}
+
+@media only screen and (min-width:850px) {
+    .blogBox {
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+    .blogText {
+        text-align: start;
+        margin-left: 20px;
+
+    }
+
+}
+
+/* blog end */
+
+
+
+/* about-us start */
+
+
+
+#about-us {
+    background-image: url(https://lof8sc.yourbrand.studio/files/dynamicContent/sites/lof8sc/images/en/webpage_16/m5p6cseu/element_285/1/rwdMode_1/2400x658/Gallery_1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#MainAboutUs{
+    margin: 0px 30px;
+}
+#AboutSubPart{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.3)
+;
+}
+
+.aboutImg img {
+    width: 100%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.3)
+
+   
+   
+}
+
+
+ .H3About,.H2About{
+    text-align: center;
+    color: #79A690;
+}
+.sub-mainAbout .PAbout{
+    text-align:start;
+}
+
+@media only screen and (min-width:850px){
+   
+
+   #MainAboutUs{
+    margin-top: -140px;
+    background: white;
+   }
+   #AboutSubPart{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  align-items: flex-start;
     
-}
-.btnSignUp{
-    padding: 10px;
-}
-
-    
+   }
+    .aboutImg img{
+        width: 100%;
+    }
+    .aboutText{
+        width: 80%;
+        height: auto;
+    }
 }
