@@ -58,7 +58,7 @@ body {
 .navList {
     display: flex;
    justify-content: center;
-    /* display: none; */
+    display: none;
 
 }
 
